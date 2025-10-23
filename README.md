@@ -31,7 +31,7 @@ Run the application using your IDE or via the command line (mvn spring-boot:run 
 Test the Endpoint:
 
 Open a web browser or use Postman to visit:
-http://localhost:8080/hello
+http://localhost:8080/print
 
 You should see the output (e.g., "Hello World").
 
@@ -41,7 +41,7 @@ Stop the Spring Boot server once testing is complete.
 
 
 ## Program 
-
+```
 simple-web-server/
 ├── src/
 │   └── main/
@@ -52,7 +52,7 @@ simple-web-server/
 │       └── resources/
 │           └── application.properties
 ├── pom.xml
-
+```
  ### Pom.xml
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -131,5 +131,7 @@ public class HelloController {
 
 
 Output:
+<img width="1913" height="958" alt="image" src="https://github.com/user-attachments/assets/ba962ffa-c440-4cb2-8424-ad22310f3332" />
+
 
 
